@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <!--INSERT INDIVIDUAL PAGES FOR BREADCRUMBS-->
+  
+  <!--MAIN-->
+	
+  <siteMapNode title="Dashboard" url="Dashboard.aspx">
+    <!--LEAVE SECTION-->
+    <siteMapNode title="Leave Summary" url="LeaveSummary.aspx">
+      <siteMapNode title="Add Leave" url="Leave_addLeave.aspx"/>
+      <siteMapNode title="Add Leave" url="Leave_addLeave1.aspx"/>
+      <siteMapNode title="Show All Leave" url="ShowAllLeave.aspx">
+        <siteMapNode title="Edit leave" url="EditLeave.aspx"/>
+      </siteMapNode>
+    </siteMapNode>
+    <!--END OF LEAVE SECTION-->
+	  <!--CLAIM SECTION-->
+	  <siteMapNode title="Claim Summary" url="ClaimSummary.aspx">
+		  <siteMapNode title="Add Single Claim" url="AddSingleClaim.aspx">
+		  </siteMapNode>
+		  <siteMapNode title="Edit Single Claim" url="EditSingleClaim.aspx">
+		  </siteMapNode>
+		  <siteMapNode title="Add Multiple Claim" url="AddMultipleClaim.aspx">
+		  </siteMapNode>
+		  <siteMapNode title="Edit Multiple Claim" url="EditMultipleClaim.aspx">
+		  </siteMapNode>
+	  </siteMapNode>
+	  <!--END OF CLAIM SECTION-->
+	  <!--MANAGER SECTION-->
+	  <siteMapNode title="Review Claims Summary" url="ManagerClaimSummary.aspx">
+		  <siteMapNode title="View Claim" url="ManagerViewClaims.aspx">
+		  </siteMapNode>
+	  </siteMapNode>
+
+    <siteMapNode title="Review Leave Summary" url="ManagerLeaveSummary.aspx">
+     
+    </siteMapNode>
+	  <!--END OF MANAGER SECTION-->
+    
+  </siteMapNode>
+  <!--END OF MAIN-->
+
+</siteMap>
+
+
